@@ -13,7 +13,7 @@ public class HW2 {
         String text = txt.toLowerCase();
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите слово для подсчета нахождений");
-        String keySlovo = sc.nextLine();
+        String keySlovo = sc.nextLine().toLowerCase();
         Map<String, Integer> str = new HashMap<>();
         String[] arr = text.split(" ");
         for (int i = 0; i < arr.length; i++) {
